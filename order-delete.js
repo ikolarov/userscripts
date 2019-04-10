@@ -27,7 +27,7 @@
       jQuery('.delete-order').on('click', function(e) {
         e.preventDefault();
         var $this = jQuery(this);
-        if (confirm("his will delete the order permanently!!!")){
+        if (confirm("This will delete the order permanently!!!")){
           var $tr = $this.closest('tr');
           $tr.css('opacity', 0.3);
           jQuery.ajax({
